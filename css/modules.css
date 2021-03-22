@@ -1,0 +1,16 @@
+section{
+    background-color: lightsalmon;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+img{
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+h2{
+    font-size: large;
+}
+p{
+    font-size:medium;
+    line-height: 25px;
+}
