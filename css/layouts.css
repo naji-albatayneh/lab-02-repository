@@ -1,11 +1,64 @@
-h1, footer{
+header{
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    box-shadow: 0 6px 4px 1px wheat;
+}
+h1{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+}
+select{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: lightsalmon;
+    width: 200px;
+    text-align: center;
 }
 div{
     width: 890px;
+    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 110px;
+}
+section{
+    width: 200px;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+h2{
+    text-align: center;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img{
+    width: 198px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    clear: both;
+    padding: 10px;
 }
