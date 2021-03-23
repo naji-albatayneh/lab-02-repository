@@ -8,14 +8,47 @@ h1{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: 60%;
 }
-select{
+nav{
+    width: 85%;
+    height: 40%;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+}
+#collection{
     background-color: lightsalmon;
-    width: 200px;
     text-align: center;
+    float: left;
+    width: 14%;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+#filter{
+    background-color: lightsalmon;
+    text-align: center;
+    float: left;
+    width: 14%;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+#sort{
+    background-color: lightsalmon;
+    text-align: center;
+    float: left;
+    width: 14%;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+form{
+    background-color: lightsalmon;
+    float: left;
+    width: 53%;
+    height: 35px;
+    border-radius: 7px;
 }
 div{
     width: 890px;
