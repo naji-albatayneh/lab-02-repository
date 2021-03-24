@@ -5,67 +5,74 @@ header{
     box-shadow: 0 6px 4px 1px wheat;
 }
 h1{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 60%;
+    float: left;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 30px;
+    height: 90%;
+    width: 27%;
 }
 nav{
-    width: 85%;
-    height: 40%;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
+    width: 60%;
+    height: 100%;
 }
 #collection{
-    background-color: lightsalmon;
+    background-color: goldenrod;
     text-align: center;
     float: left;
-    width: 14%;
-    height: 35px;
-    margin-right: 10px;
+    width: 240px;
+    height: 37px;
+    margin: 5px;
     border-radius: 7px;
 }
 #filter{
-    background-color: lightsalmon;
+    background-color: goldenrod;
     text-align: center;
     float: left;
-    width: 14%;
-    height: 35px;
-    margin-right: 10px;
+    width: 240px;
+    height: 37px;
+    margin: 5px;
     border-radius: 7px;
 }
 #sort{
-    background-color: lightsalmon;
+    background-color: goldenrod;
     text-align: center;
     float: left;
-    width: 14%;
-    height: 35px;
-    margin-right: 10px;
+    width: 240px;
+    height: 37px;
+    margin: 5px;
     border-radius: 7px;
 }
 form{
-    background-color: lightsalmon;
+    background-color: goldenrod;
     float: left;
-    width: 53%;
-    height: 35px;
+    width: 739px;
+    height: 37px;
+    margin: 5px;
     border-radius: 7px;
 }
+label{
+    font-size: small;
+    margin-left: 20px;
+    color: black;
+}
+#search{
+    width: 400px;
+    height: 27px;
+    border-radius: 7px;
+    margin: 5px;
+}
 div{
+    display: flex;
+    flex-wrap: wrap;
     width: 890px;
     min-height: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 110px;
 }
-section{
-    width: 200px;
-    height: 450px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
+
 h2{
     text-align: center;
     width: 190px;
@@ -92,6 +99,6 @@ footer{
     margin-left: auto;
     margin-right: auto;
     height: 40px;
-    clear: both;
+    /* clear: both; */
     padding: 10px;
 }
