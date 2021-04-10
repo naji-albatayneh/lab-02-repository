@@ -138,44 +138,32 @@ $(document).ready(function (){
   //Sort Fearture//Event Handler upon changing the value of the #sort select elemnet
   $('#sort').on('change', function(){
     if($(this).val()==='Sort By Title - Ascending'){
-      renderedCollection.sort(function (a, b) {
+      renderedCollection.sort((a, b) => {
         if(a.title > b.title){
-          return a.title - b.title;
+          return 1;
         }else if(a.title < b.title){
-          return b.title - a.title;
+          return -1;
         }else{
           return 0;
         }
       });
     }else if($(this).val()==='Sort By Title - Descending'){
-      renderedCollection.sort(function (a, b) {
+      renderedCollection.sort((a, b) => {
         if(a.title < b.title){
-          return a.title - b.title;
+          return 1;
         }else if(a.title > b.title){
-          return b.title - a.title;
+          return -1;
         }else{
           return 0;
         }
       });
     }else if($(this).val()==='Sort By Horns - Ascending'){
-      renderedCollection.sort(function (a, b) {
-        if(a.horns > b.horns){
-          return b.horns - a.horns;
-        }else if(a.horns < b.horns){
-          return a.horns - b.horns;
-        }else{
-          return 0;
-        }
+      renderedCollection.sort((a, b) => {
+        return (parseInt(a.horns) - parseInt(b.horns));
       });
     }else if($(this).val()==='Sort By Horns - Descending'){
-      renderedCollection.sort(function (a, b) {
-        if(a.horns > b.horns){
-          return a.horns - b.horns;
-        }else if(a.horns < b.horns){
-          return b.horns - a.horns;
-        }else{
-          return 0;
-        }
+      renderedCollection.sort((a, b) => {
+        return (parseInt(b.horns) - parseInt(a.horns));
       });
     }
     $('div').empty();

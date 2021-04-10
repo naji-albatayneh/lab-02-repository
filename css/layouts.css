@@ -1,11 +1,13 @@
 header{
+    display: flex;
+    flex-wrap: wrap;
     height: 100px;
     width: 100%;
     position:fixed;
     box-shadow: 0 6px 4px 1px wheat;
 }
 h1{
-    float: left;
+    
     text-align: left;
     margin-left: 5%;
     margin-right: 30px;
@@ -13,14 +15,14 @@ h1{
     width: 27%;
 }
 nav{
-    float: left;
+    
     width: 60%;
     height: 100%;
 }
 #collection{
     background-color: goldenrod;
     text-align: center;
-    float: left;
+    
     width: 240px;
     height: 37px;
     margin: 5px;
@@ -29,7 +31,7 @@ nav{
 #filter{
     background-color: goldenrod;
     text-align: center;
-    float: left;
+    
     width: 240px;
     height: 37px;
     margin: 5px;
@@ -38,7 +40,7 @@ nav{
 #sort{
     background-color: goldenrod;
     text-align: center;
-    float: left;
+    
     width: 240px;
     height: 37px;
     margin: 5px;
@@ -46,7 +48,7 @@ nav{
 }
 form{
     background-color: goldenrod;
-    float: left;
+    
     width: 739px;
     height: 37px;
     margin: 5px;
@@ -63,6 +65,7 @@ label{
     border-radius: 7px;
     margin: 5px;
 }
+
 div{
     display: flex;
     flex-wrap: wrap;
